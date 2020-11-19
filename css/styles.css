@@ -1,0 +1,91 @@
+body {
+  background-color: #fffafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+  background-color: white;
+  width: 400px;
+  height: 280px;
+  border-radius: 8px;
+  box-shadow: 0 6px 17px -2px rgba(0, 0, 0, 0.5);
+}
+
+.text-sus {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  width: 500px;
+  font-weight: 200;
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+#h2sus {
+  width: 500px;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#paragraf-sus {
+  width: 500px;
+  text-align: center;
+  color: hsl(229, 6%, 66%);
+}
+
+.supervisor {
+  border-top: 6px solid hsl(180, 62%, 55%);
+  position: absolute;
+  left: 16%;
+  top: 43%;
+}
+
+.team-builder {
+  border-top: 6px solid hsl(0, 78%, 62%);
+  position: relative;
+  margin: 70px auto 40px auto;
+}
+
+.karma {
+  border-top: 6px solid hsl(34, 97%, 64%);
+  position: relative;
+  margin: auto auto 80px auto;
+}
+
+.calculator {
+  border-top: 6px solid hsl(212, 86%, 64%);
+  position: absolute;
+  right: 16%;
+  top: 43%;
+}
+
+.pos-img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.pos-title {
+  position: absolute;
+  margin: 30px auto auto 30px;
+}
+
+.pos-text {
+  position: absolute;
+  bottom: 140px;
+  left: 30px;
+  padding-right: 30px;
+  color: hsl(229, 6%, 66%);
+}
